@@ -35,9 +35,72 @@ body {
 }
 
 .hometext {
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+    position: center;
+    padding: 250px 200px 200px 125px;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    position: fixed; 
+    padding: 100px 100px 100px 100px;
+    /*left: 900px; 
+    background-color: #ffffe0;*/
+}
+
+.contentcareer {
+    background-image: url('src/carrer.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 425px;
+    width: 536px;
+    height: 201px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+
+}
+
+.contentcontact {
+    background-image: url('src/contact.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 425px;
+    width: 536px;
+    height: 201px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+  
+}
+
+.textproba{
+    text-align: center !important;
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: inherit;
+    line-height: 1.2;
+    animation-name: fadeInUp;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 70px;
+    font-weight: 200;
+    color: black;
+}
+
+.textproba2{
+    text-align: center !important;
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: inherit;
+    line-height: 1.2;
+    animation-name: fadeInUp;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(61, 56, 56);
 }
