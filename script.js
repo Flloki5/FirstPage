@@ -10,13 +10,22 @@ function btnActivation(){
     }else{
         document.getElementById("send_button").disabled = false;
     }
+}
+
+
+function validateData(){
+    let fnameVaule = document.getElementById('fname').value;
+    let emailVaule = document.getElementById('email').value;
 
     if(validateName(fnameVaule) && validateEmail(emailVaule)){
-        alert("Name and email are good");
+        alert("Message are send");
+        let frm = document.getElementsByName('myForm')[0];
+        //frm.submit();
+        frm.reset(); 
     }else{
-        //alert("Wrong data");
+        alert("Wrong data format");
     }   
-}   
+}
 
 
 function validateName(value){       
