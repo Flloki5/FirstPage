@@ -37,7 +37,6 @@ body {
 }
 
 .hometext {
-    position: center;
     padding: 250px 200px 200px 125px;
 }
 
@@ -46,8 +45,6 @@ body {
     width: 100%;
     position: fixed; 
     padding: 50px 100px 100px 175px;
-    /*left: 900px; 
-    background-color: #ffffe0;*/
 }
 
 .contentcareer {
@@ -111,7 +108,7 @@ footer {
     color: white;
     clear: both;
     position: relative;
-    height: 100px;
+    height: 60px;
     margin-top: 750px;
     border-radius: 20px;
     
