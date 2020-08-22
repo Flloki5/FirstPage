@@ -1,12 +1,11 @@
 body {
-  background-image: url('src/home.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+    background-image: url('src/home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .topnav {
-
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -25,10 +24,11 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(161, 161, 161);
     color: black;
     border-radius: 20px;
 }
+
 
 .topnav a.active {
     background-color: #4CAF50;
@@ -69,8 +69,6 @@ body {
     height: 320px;
     border: 3px solid black;
     border-radius: 20px;
-
-  
 }
 
 .textproba{
@@ -101,6 +99,20 @@ body {
     color: rgb(31, 28, 28);
 }
 
+.textproba3{
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: inherit;
+    line-height: 1.2;
+    animation-name: fadeInUp;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(31, 28, 28);
+    padding: 350px 300px 600px 1025px;
+}
+
 footer {
     text-align: center;
     padding: 3px;
@@ -108,10 +120,9 @@ footer {
     color: white;
     clear: both;
     position: relative;
-    height: 60px;
+    height: 80px;
     margin-top: 750px;
     border-radius: 20px;
-    
 }
 
 form{

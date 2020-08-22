@@ -40,3 +40,17 @@ function validateEmail(value){
     return regex.test(value);
 }
 
+
+function menuActivation(){
+
+    let messageVaule = document.getElementById('message').value;
+    let fnameVaule = document.getElementById('fname').value;
+    let emailVaule = document.getElementById('email').value;
+
+
+    if( messageVaule.length == 0 || fnameVaule.length == 0 || emailVaule.length == 0){
+        document.getElementById("send_button").disabled = true;            
+    }else{
+        document.getElementById("send_button").disabled = false;
+    }
+}
